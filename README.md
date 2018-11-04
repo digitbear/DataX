@@ -1,3 +1,6 @@
+
+
+
 ![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/DataX-logo.jpg)
 
 
@@ -107,4 +110,9 @@ This software is free to use under the Apache License [Apache license](https://g
 ![DataX-OpenSource-Dingding](https://img.alicdn.com/tfs/TB1SdPUH21TBuNjy0FjXXajyXXa-359-504.png)
 
 
+编译问题：
+1.  add
 
+<id>releases</id>
+
+to src/main/assemblies/plugin.xml to solve this problem.
